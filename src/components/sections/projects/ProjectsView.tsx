@@ -88,7 +88,7 @@ export default function ProjectsView() {
                                 <span style={{ color: "var(--dt-yellow)" }}>{c.hero.title}{" "}</span>
                                 <span>{c.hero.subtitle}</span>
                                 <br />
-                                Chất lượng trong từng bước.
+                                Chất lượng trong từng giai đoạn.
                             </h1>
                         </Reveal>
 
