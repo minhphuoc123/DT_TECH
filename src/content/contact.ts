@@ -1,4 +1,3 @@
-// src/content/contact.ts
 import type { ContactPageData } from "@/types/contact";
 
 export const CONTACT_PAGE_DATA: ContactPageData = {

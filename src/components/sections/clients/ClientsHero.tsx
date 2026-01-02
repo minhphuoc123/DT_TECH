@@ -3,12 +3,14 @@ import Container from "@/components/layout/Container";
 import Reveal from "@/components/common/Reveal";
 import Stagger from "@/components/common/Stagger";
 import type { ClientsHeroData } from "@/types/clients";
+import GlowBackdrop from "@/components/common/GlowBackdrop";
 
 type Props = { data: ClientsHeroData };
 
 export default function ClientsHero({ data }: Props) {
     return (
         <section className="bg-white">
+            <GlowBackdrop/>
             <Container className="py-10 md:py-14">
                 <div className="grid gap-6 md:grid-cols-[1.2fr_1fr] md:items-start">
                     <div>

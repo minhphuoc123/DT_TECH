@@ -14,7 +14,7 @@ export default function ServicesHero({ data }: Props) {
       className="relative overflow-hidden"
       style={{ background: "var(--dt-navy)" }}
     >
-      {/* Decorative gradient (giống phong cách corporate) */}
+      {/* Decorative gradient */}
       <div
         className="pointer-events-none absolute inset-0 opacity-[0.20]"
         style={{

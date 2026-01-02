@@ -89,7 +89,7 @@ export const HOME_PAGE_DATA: HomePageData = {
             "Quy trình khảo sát – thiết kế – triển khai – nghiệm thu – vận hành được chuẩn hóa. Đội ngũ kỹ thuật phối hợp chặt chẽ với khách hàng để đảm bảo an toàn, tiến độ và hiệu quả khai thác dài hạn.",
         primaryCta: { label: "Liên hệ tư vấn", href: "/lien-he" },
         secondaryCta: { label: "Xem dịch vụ", href: "/dich-vu" },
-        imageSrc: "/images/quality-banner.jpg",
+        imageSrc: "/images/quality-banner.png",
         imageAlt: "Quality",
     },
 };

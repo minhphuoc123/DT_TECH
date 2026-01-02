@@ -2,16 +2,16 @@
 
 import Link from "next/link";
 import { useEffect, useState } from "react";
-import Container from "@/components/layout/Container";
 import NavLink from "@/components/layout/NavLink";
 import BrandLogo from "@/components/brand/BrandLogo";
+import ThemeToggle from "@/components/common/ThemeToggle";
+
 
 const NAV = [
     { href: "/", label: "Trang chủ" },
     { href: "/dich-vu", label: "Dịch vụ" },
     { href: "/du-an", label: "Dự án" },
     { href: "/khach-hang-doi-tac", label: "Khách hàng & Đối tác" },
-    { href: "/cong-bo-thong-tin", label: "Công bố thông tin" },
     { href: "/chinh-sach-chat-luong", label: "Chính sách chất lượng" },
     { href: "/lien-he", label: "Liên hệ" },
 ];
@@ -131,7 +131,7 @@ export default function Header() {
                                     </Link>
                                 ))}
                             </div>
-
+                            
                             <Link
                                 href="/lien-he"
                                 onClick={() => setOpen(false)}

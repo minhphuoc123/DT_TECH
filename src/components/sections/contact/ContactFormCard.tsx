@@ -38,10 +38,7 @@ export default function ContactFormCard({ data }: Props) {
         e.preventDefault();
 
         if (!isValid) return;
-
-        // TODO: sau này bạn có thể gọi API route /api/contact ở đây
-        // await fetch("/api/contact", { method: "POST", body: JSON.stringify(values) })
-
+        
         setSubmitted(true);
         setValues(initState(data.fields));
     }

@@ -2,6 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import Container from "@/components/layout/Container";
 import type { HomeHeroData } from "@/types/home";
+import GlowBackdrop from "@/components/common/GlowBackdrop";
 
 type Props = { data: HomeHeroData };
 
@@ -10,7 +11,7 @@ export default function Hero({ data }: Props) {
 
     return (
         <section className="relative overflow-hidden bg-white">
-            {/* subtle background */}
+            <GlowBackdrop/>
             <div
                 className="pointer-events-none absolute inset-0 opacity-[0.08]"
                 style={{

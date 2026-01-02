@@ -16,9 +16,9 @@ export default function HomePage() {
             <Hero data={hero} />
             <About data={about} />
             <Stats data={stats} />
-            <OrgChart data={orgChart} />
+            {/* <OrgChart data={orgChart} /> */}
             <CoreValues data={coreValues} />
-            <Careers data={careers} />
+            {/* <Careers data={careers} /> */}
             <QualityPolicy data={qualityPolicy} />
         </main>
     );

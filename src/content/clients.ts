@@ -8,7 +8,7 @@ export const CLIENTS_PARTNERS_PAGE_DATA: ClientsPartnersPageData = {
         primaryCta: { label: "Trở thành đối tác", href: "/lien-he?topic=partner" },
         secondaryCta: { label: "Xem dự án tiêu biểu", href: "/du-an" },
         stats: [
-            { value: "200+", label: "Dự án / khách hàng đã triển khai" },
+            { value: "200+", label: "Dự án đã triển khai" },
             { value: "5+", label: "Năm kinh nghiệm thực chiến" },
             { value: "24/7", label: "Hỗ trợ vận hành" },
             { value: "3 lớp", label: "Checklist • Hold Point • CAPA" },

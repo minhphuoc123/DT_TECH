@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import { Be_Vietnam_Pro } from "next/font/google";
 import "@/styles/globals.css";
 
+import ThemeProvider from "@/components/providers/ThemeProvider";
+
 const beVietnam = Be_Vietnam_Pro({
     subsets: ["latin", "vietnamese"],
     variable: "--font-be-vietnam",

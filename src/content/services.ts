@@ -47,11 +47,11 @@ export const SERVICES_PAGE_DATA: ServicesPageData = {
         },
         {
             title: "Phát triển phần mềm",
-            subtitle: "Giám sát, cảnh báo và tự động hóa theo kịch bản",
+            subtitle: "Phát triển phần mềm doanh nghiệp",
             description:
-                "Thiết kế hệ thống camera/IoT, phân quyền bảo mật, lưu trữ và cảnh báo. Có thể tích hợp phân tích AI tùy nhu cầu (nhận diện/cảnh báo bất thường…).",
+                "Tư vấn và xây dựng các giải pháp phần mềm tối ưu, giúp tự động hóa quy trình vận hành và nâng cao hiệu suất kinh doanh.",
             image: { src: "/images/service-app.webp", alt: "AI IoT Camera" },
-            bullets: ["Thiết kế theo nhu cầu", "Phân quyền & bảo mật", "Kịch bản cảnh báo", "Bảo trì & tối ưu"],
+            bullets: ["Thiết kế theo nhu cầu", "Hệ thống quản trị dữ liệu", "Phát triển Web & Ứng dụng di động", "Bảo trì & tối ưu"],
             primaryCta: { label: "Nhận tư vấn", href: "/lien-he?topic=ai-iot" },
             secondaryCta: { label: "Xem dự án", href: "/du-an?tag=ai-iot" },
         },
