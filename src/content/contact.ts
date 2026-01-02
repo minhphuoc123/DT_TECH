@@ -3,7 +3,7 @@ import type { ContactPageData } from "@/types/contact";
 export const CONTACT_PAGE_DATA: ContactPageData = {
     hero: {
         title: "Liên hệ với chúng tôi",
-        subtitle: "Có thắc mắc hoặc cần hỗ trợ? Điền vào mẫu bên dưới hoặc liên hệ qua thông tin liên hệ.",
+        subtitle: "Có thắc mắc hoặc cần hỗ trợ? Liên hệ qua thông tin liên hệ để được hỗ trợ nhanh nhất.",
     },
 
     form: {
