@@ -14,7 +14,7 @@ const beVietnam = Be_Vietnam_Pro({
 
 export const metadata: Metadata = {
     title: {
-        default: "DT-TECH",
+        default: "Công ty CP Thương mại và Công nghệ DT-TECH",
         template: "%s | DT-TECH",
     },
     description: "Công ty CP Thương mại và Công nghệ DT-TECH",

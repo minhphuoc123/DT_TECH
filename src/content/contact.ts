@@ -49,7 +49,7 @@ export const CONTACT_PAGE_DATA: ContactPageData = {
         items: [
             { label: "Hotline", value: "090 827 8868", href: "tel:0908278868" },
             { label: "Email", value: "Sales@dt-tech.vn", href: "mailto:Sales@dt-tech.vn" },
-            { label: "Địa chỉ", value: "Số 4 ngõ 10/117 Trần Cung, Nghĩa Đô, Hà Nội" },
+            { label: "Địa chỉ", value: "Số 4 ngõ 10/117 Trần Cung, phườngNghĩa Đô, Hà Nội" },
         ],
         map: {
             title: "Bản đồ DT-TECH",
