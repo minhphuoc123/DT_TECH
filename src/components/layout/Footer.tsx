@@ -47,7 +47,7 @@ export default function Footer() {
                                 <span className="font-medium text-white">Email:</span> Sales@dt-tech.vn
                             </li>
                             <li>
-                                <span className="font-medium text-white">Địa chỉ:</span> Số 4 ngõ 10/117 Trần Cung, Bắc Từ Liêm, Hà Nội
+                                <span className="font-medium text-white">Địa chỉ:</span> Số 4 ngõ 10/117 Trần Cung, Nghĩa Đô, Hà Nội
                             </li>
                         </ul>
 
