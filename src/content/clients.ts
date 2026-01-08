@@ -30,6 +30,7 @@ export const CLIENTS_PARTNERS_PAGE_DATA: ClientsPartnersPageData = {
             { name: "Savico", logo: { src: "/images/clients/savico.png", alt: "Savico" } },
             { name: "Tasco", logo: { src: "/images/clients/tasco.png", alt: "Tasco" } },
             { name: "PVTrans", logo: { src: "/images/clients/pvtrans.png", alt: "PVTrans" } },
+            { name: "EVN", logo: { src: "/images/clients/evn.png", alt: "EVN" } },
         ],
     },
 
@@ -40,6 +41,7 @@ export const CLIENTS_PARTNERS_PAGE_DATA: ClientsPartnersPageData = {
             { name: "TP-Link", logo: { src: "/images/partners/tp-link.png", alt: "TP-Link" } },
             { name: "IBM", logo: { src: "/images/partners/ibm.jpeg", alt: "IBM" } },
             { name: "Cisco", logo: { src: "/images/partners/cisco.png", alt: "Cisco" } },
+            { name: "AWS", logo: { src: "/images/partners/aws.png", alt: "AWS" } },
         ],
     },
 

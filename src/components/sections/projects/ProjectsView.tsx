@@ -87,8 +87,6 @@ export default function ProjectsView() {
                             <h1 className="mt-2 text-4xl font-black leading-tight text-[var(--dt-navy)] md:text-6xl">
                                 <span style={{ color: "var(--dt-yellow)" }}>{c.hero.title}{" "}</span>
                                 <span>{c.hero.subtitle}</span>
-                                <br />
-                                Chất lượng trong từng giai đoạn.
                             </h1>
                         </Reveal>
 

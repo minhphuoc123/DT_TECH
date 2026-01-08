@@ -21,7 +21,7 @@ export const PROJECTS_PAGE: ProjectsPageContent = {
 
     categories: [
         "Tất cả",
-        "Viễn thông vệ tinh",
+        "Thông tin liên lạc vệ tinh",
         "An ninh giám sát",
         "Smart City",
         "IoT đo lường",
@@ -44,9 +44,9 @@ export const PROJECTS_PAGE: ProjectsPageContent = {
     projects: [
         {
             id: "vsat-maritime",
-            title: "Hệ thống thông tin liên lạc Hàng hải (VSAT)",
+            title: "Hệ thống thông tin liên lạc Hàng hải (VSAT MARINE)",
             image: "/images/projects/project-1.png",
-            category: "Viễn thông vệ tinh",
+            category: "Thông tin liên lạc vệ tinh",
             featured: true,
         },
         {
@@ -83,14 +83,32 @@ export const PROJECTS_PAGE: ProjectsPageContent = {
         },
         {
             id: "vsat-mines",
-            title: "Thi công VSAT & chống sét cho mỏ than",
+            title: "Thiết kế và triển khai Hệ thống thông tin liên lạc nội bộ qua vệ tinh",
             image: "/images/projects/chong-set-mo-than.jpg",
-            category: "Viễn thông vệ tinh",
+            category: "Thông tin liên lạc vệ tinh",
         },
         {
             id: "solar-hybrid",
             title: "Hệ thống Solar HYBRID 3KVA – 10KVA",
             image: "/images/projects/solar-system.jpg",
+            category: "Năng lượng",
+        },
+        {
+            id: "fire-forest",
+            title: "Cung cấp giải pháp công nghệ giúp cảnh báo cháy rừng, đo đạc địa chất, khí tượng thuỷ văn",
+            image: "/images/projects/fire-forest.png",
+            category: "An ninh giám sát",
+        },
+        {
+            id: "security",
+            title: "Các thiết bị và giải pháp dành riêng cho lĩnh vực An ninh - Quốc phòng",
+            image: "/images/projects/security.png",
+            category: "An ninh giám sát",
+        },
+        {
+            id: "light-electric",
+            title: "Triển khai hệ thống Điện, Điện nhẹ cho dự án: Cụm công nghiệp Thanh Văn – Tân Ước",
+            image: "/images/projects/light-electric.png",
             category: "Năng lượng",
         },
     ] as ProjectItem[],

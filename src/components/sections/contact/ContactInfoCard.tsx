@@ -2,13 +2,15 @@ import Reveal from "@/components/common/Reveal";
 import Stagger from "@/components/common/Stagger";
 import type { ContactPageData } from "@/types/contact";
 
+import { FaPhoneAlt, IoMdMail, FaLocationDot, FaClock } from "@/components/icons";
+
 type Props = { data: ContactPageData["info"] };
 
 function iconForLabel(label: string) {
     const l = label.toLowerCase();
-    if (l.includes("email")) return "✉️";
-    if (l.includes("hotline") || l.includes("điện thoại") || l.includes("phone")) return "📞";
-    if (l.includes("địa chỉ") || l.includes("address")) return "📍";
+    if (l.includes("email")) return <IoMdMail />;
+    if (l.includes("hotline") || l.includes("điện thoại") || l.includes("phone")) return <FaPhoneAlt />;
+    if (l.includes("địa chỉ") || l.includes("address")) return <FaLocationDot />;
     return "ℹ️";
 }
 
@@ -81,7 +83,7 @@ export default function ContactInfoCard({ data }: Props) {
                             }}
                         >
                             <div className="flex items-center gap-2 text-xs font-semibold opacity-80" style={{ color: "var(--dt-navy)" }}>
-                                <span aria-hidden="true">⏱️</span>
+                                <span aria-hidden="true"><FaClock /></span>
                                 <span>{data.workingHours.title}</span>
                             </div>
 
