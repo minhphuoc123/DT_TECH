@@ -1,7 +1,7 @@
 // src/types/project.ts
 
 export type ProjectCategory =
-    | "Viễn thông vệ tinh"
+    | "Thông tin liên lạc vệ tinh"
     | "An ninh giám sát"
     | "Smart City"
     | "IoT đo lường"
@@ -17,7 +17,7 @@ export type ProjectItem = {
     image: string;
     category: ProjectCategory;
 
-    // các trường dưới giữ lại để sau này làm modal/detail
+    // giữ lại để sau này làm modal/detail
     description?: string;
     client?: string;
     year?: string;

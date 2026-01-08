@@ -84,7 +84,7 @@ export const PROJECTS_PAGE: ProjectsPageContent = {
         {
             id: "vsat-mines",
             title: "Thiết kế và triển khai Hệ thống thông tin liên lạc nội bộ qua vệ tinh",
-            image: "/images/projects/chong-set-mo-than.jpg",
+            image: "/images/projects/lien-lac-noi-bo.png",
             category: "Thông tin liên lạc vệ tinh",
         },
         {
