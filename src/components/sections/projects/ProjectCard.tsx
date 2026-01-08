@@ -3,7 +3,7 @@ import type { ProjectItem } from "@/types/project";
 
 function badgeTheme(category: ProjectItem["category"]) {
     switch (category) {
-        case "Viễn thông vệ tinh":
+        case "Thông tin liên lạc vệ tinh":
             return { bg: "var(--dt-blue)", fg: "white" };     
         case "An ninh giám sát":
             return { bg: "var(--dt-navy)", fg: "white" };    
