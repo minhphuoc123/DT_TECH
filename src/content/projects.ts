@@ -109,7 +109,25 @@ export const PROJECTS_PAGE: ProjectsPageContent = {
             id: "light-electric",
             title: "Triển khai hệ thống Điện, Điện nhẹ cho dự án: Cụm công nghiệp Thanh Văn – Tân Ước",
             image: "/images/projects/light-electric.png",
-            category: "Năng lượng",
+            category: "Hạ tầng & ELV",
+        },
+        {
+            id: "ics",
+            title: "Thiết kế và triển khai hệ thống điều khiển công nghiệp (ICS)",
+            image: "/images/projects/ics.png",
+            category: "Công nghiệp",
+        },
+        {
+            id: "wastewater",
+            title: "Hệ thống xử lý nước thải cho Nhà máy",
+            image: "/images/projects/wastewater.jpg",
+            category: "Công nghiệp",
+        },
+        {
+            id: "industrial-ac",
+            title: "Hệ thống điều hòa công nghiệp",
+            image: "/images/projects/industrial-ac.jpg",
+            category: "Công nghiệp",
         },
     ] as ProjectItem[],
 };
