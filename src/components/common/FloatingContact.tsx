@@ -1,22 +1,23 @@
 "use client";
 
-import { Mail, Phone } from "lucide-react";
+import { Mail, Phone } from "@/components/icons";
 
-// ✅ Đồng bộ theo dự án DT-Tech (src/content/contact.ts)
 const EMAIL = "Sales@dt-tech.vn";
 const PHONE = "0908278868";
 
-// (Tuỳ chọn) Nội dung điền sẵn khi mở ứng dụng email
 const MAIL_SUBJECT = "Tư vấn dịch vụ DT-TECH";
-const MAIL_BODY = "Xin chào DT-TECH,%0D%0ATôi cần tư vấn về...%0D%0A%0D%0ATrân trọng,";
 
-// Tạo mailto có subject/body (encode an toàn)
+const MAIL_BODY =
+    "Xin chào DT-TECH,\n" +
+    "Tôi cần tư vấn về...\n\n" +
+    "Trân trọng,";
+
 function buildMailto(email: string, subject?: string, body?: string) {
     const params = new URLSearchParams();
     if (subject) params.set("subject", subject);
     if (body) params.set("body", body);
 
-    const qs = params.toString();
+    const qs = params.toString().replace(/\+/g, "%20");
     return `mailto:${email}${qs ? `?${qs}` : ""}`;
 }
 
