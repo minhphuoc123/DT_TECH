@@ -5,7 +5,7 @@ import { usePathname } from "next/navigation";
 
 function normalize(path: string) {
     if (!path) return "/";
-    // usePathname() không có query/hash, nhưng normalize cho chắc
+    // usePathname() không có query/hash, nhưng normalize
     const p = path.split("?")[0].split("#")[0];
     // bỏ dấu / ở cuối, trừ root
     return p !== "/" ? p.replace(/\/+$/, "") : "/";
@@ -38,7 +38,7 @@ export default function NavLink({
         <Link
             href={href}
             onClick={onClick}
-            className="relative text-sm font-medium transition-opacity hover:opacity-85"
+            className="relative text-lg font-bold transition-opacity hover:opacity-85"
             style={{ color: "var(--dt-navy)" }}
             aria-current={active ? "page" : undefined}
         >

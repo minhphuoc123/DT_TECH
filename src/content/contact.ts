@@ -58,7 +58,7 @@ export const CONTACT_PAGE_DATA: ContactPageData = {
         },
         workingHours: {
             title: "Thời gian làm việc",
-            lines: ["Thứ Hai tới Thứ Sáu: 9:00 – 18:00", "Thứ Bảy & ngày lễ: phản hồi qua email"],
+            lines: ["Thứ Hai tới Thứ Sáu: 8:00 – 17:00", "Thứ Bảy & ngày lễ: phản hồi qua email"],
         },
     },
 };

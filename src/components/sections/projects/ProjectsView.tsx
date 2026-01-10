@@ -32,17 +32,6 @@ function GlowBackdrop() {
     );
 }
 
-function Chip({ label }: { label: string }) {
-    return (
-        <span
-            className="rounded-full border px-3 py-1 text-xs font-semibold"
-            style={{ borderColor: "rgba(25,36,52,0.14)", color: "var(--dt-navy)" }}
-        >
-            {label}
-        </span>
-    );
-}
-
 export default function ProjectsView() {
     const c = PROJECTS_PAGE;
 
@@ -90,16 +79,6 @@ export default function ProjectsView() {
                             </h1>
                         </Reveal>
 
-                        <Reveal variant="up" delay={130}>
-                            <p className="mt-5 max-w-2xl text-neutral-600 md:text-lg">{c.hero.desc}</p>
-                        </Reveal>
-
-                        <Stagger className="mt-7 flex flex-wrap gap-2" variant="fade" startDelay={170} step={60}>
-                            {c.hero.chips.map((t) => (
-                                <Chip key={t} label={t} />
-                            ))}
-                        </Stagger>
-
                         <Stagger className="mt-8 flex flex-wrap gap-3" variant="up" startDelay={230} step={90}>
                             <a
                                 href={c.hero.primaryCta.href}
@@ -130,7 +109,6 @@ export default function ProjectsView() {
                                 <h2 className="mt-2 text-2xl font-semibold tracking-tight text-[var(--dt-navy)] md:text-3xl">
                                     {c.featuredTitle}
                                 </h2>
-                                <p className="mt-3 max-w-2xl text-neutral-600">{c.featuredDesc}</p>
                             </div>
 
                             <a

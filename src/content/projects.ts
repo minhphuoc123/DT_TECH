@@ -12,9 +12,6 @@ export const PROJECTS_PAGE: ProjectsPageContent = {
         badge: "",
         title: "Dự án",
         subtitle: "của chúng tôi.",
-        desc:
-            "Một bộ sưu tập dự án tiêu biểu giúp bạn nhìn nhanh năng lực triển khai – tích hợp hệ thống của DT-TECH.",
-        chips: ["Triển khai thực chiến", "Tích hợp hệ thống", "Giám sát realtime", "Vận hành bền vững"],
         primaryCta: { label: "Xem nổi bật", href: "#noi-bat" },
         secondaryCta: { label: "Xem tất cả", href: "#tat-ca" },
     },
@@ -31,7 +28,6 @@ export const PROJECTS_PAGE: ProjectsPageContent = {
     ] as const,
 
     featuredTitle: "Dự án nổi bật",
-    featuredDesc: "Một vài dự án tiêu biểu để bạn cảm nhận nhanh phong cách triển khai của DT-TECH.",
 
     cta: {
         title: "Bạn muốn triển khai dự án tương tự?",

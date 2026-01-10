@@ -31,6 +31,8 @@ export const CLIENTS_PARTNERS_PAGE_DATA: ClientsPartnersPageData = {
             { name: "Tasco", logo: { src: "/images/clients/tasco.png", alt: "Tasco" } },
             { name: "PVTrans", logo: { src: "/images/clients/pvtrans.png", alt: "PVTrans" } },
             { name: "EVN", logo: { src: "/images/clients/evn.png", alt: "EVN" } },
+            { name: "VMC", logo: { src: "/images/clients/vmc.png", alt: "VMC" } },
+            { name: "VIETSOVPETRO", logo: { src: "/images/clients/vsp.png", alt: "VIETSOVPETRO" } },
         ],
     },
 

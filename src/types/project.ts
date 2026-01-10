@@ -42,8 +42,6 @@ export type ProjectsPageContent = {
         badge: string;
         title: string;
         subtitle: string;
-        desc: string;
-        chips: string[];
         primaryCta: { label: string; href: string };
         secondaryCta: { label: string; href: string };
     };
@@ -51,7 +49,6 @@ export type ProjectsPageContent = {
     categories: readonly (ProjectCategory | "Tất cả")[];
 
     featuredTitle: string;
-    featuredDesc: string;
 
     cta: {
         title: string;

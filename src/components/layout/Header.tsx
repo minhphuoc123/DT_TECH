@@ -37,9 +37,9 @@ export default function Header() {
                 className="border-b bg-white/90 backdrop-blur"
                 style={{ borderColor: "rgba(25,36,52,0.12)" }}
             >
-                <div className="flex h-16 items-center justify-between px-3">
+                <div className="flex h-20 items-center justify-between px-3">
                     <Link href="/" className="flex items-center gap-3">
-                        <BrandLogo height={60} />
+                        <BrandLogo height={80} />
                         <div className="leading-tight">
                             <div className="text-sm font-semibold" style={{ color: "var(--dt-navy)" }}>
                                 DT-TECH
@@ -62,14 +62,14 @@ export default function Header() {
                     </nav>
 
                     <div className="flex items-center gap-3">
-                        {/* CTA desktop */}
+                        {/* CTA desktop
                         <Link
                             href="/lien-he"
                             className="hidden rounded-md px-4 py-2 text-sm font-semibold transition-opacity hover:opacity-90 md:inline-flex"
                             style={{ background: "var(--dt-navy)", color: "white" }}
                         >
                             Nhận tư vấn
-                        </Link>
+                        </Link> */}
 
                         {/* Mobile toggle */}
                         <button

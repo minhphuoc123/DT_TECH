@@ -6,6 +6,8 @@ import ThemeProvider from "@/components/providers/ThemeProvider";
 import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
 
+import FloatingContact from "@/components/common/FloatingContact";
+
 const beVietnam = Be_Vietnam_Pro({
     subsets: ["latin", "vietnamese"],
     variable: "--font-be-vietnam",
@@ -26,13 +28,14 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             <body
                 className={`${beVietnam.variable} antialiased min-h-screen flex flex-col`}
             >
-                    <Header />
+                <Header />
 
-                    <main className="flex-1">
-                        {children}
-                    </main>
+                <main className="flex-1">
+                    {children}
+                </main>
+                <FloatingContact />
 
-                    <Footer />
+                <Footer />
             </body>
         </html>
     );
